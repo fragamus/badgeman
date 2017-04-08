@@ -1,0 +1,6 @@
+(ns myproject.web-test
+  (:require [clojure.test :refer :all]
+            [myproject.web :refer :all]))
+
+(deftest first-test
+  (is false "Tests should be written"))
